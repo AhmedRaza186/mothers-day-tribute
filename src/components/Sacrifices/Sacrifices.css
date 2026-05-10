@@ -1,0 +1,49 @@
+.sacrifices-simple {
+  padding: 100px 5%;
+  background-color: var(--bg-color);
+}
+
+.sacrifices-grid-simple {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.sacrifice-card-simple {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 20px;
+  border: 1px solid #fef0f4;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.sacrifice-card-simple:hover {
+  border-color: var(--primary-color);
+  background-color: var(--bg-light);
+}
+
+.sacrifice-icon-simple {
+  margin: 0 auto 15px;
+  color: var(--primary-color);
+}
+
+.sacrifice-card-simple h3 {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.sacrifice-card-simple p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .sacrifices-simple {
+    padding: 60px 20px;
+  }
+}

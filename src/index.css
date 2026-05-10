@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* Primary Theme Colors - Softer & Warmer */
+  --primary-color: #e91e63;
+  --secondary-color: #fce4ec;
+  --accent-color: #f06292;
+
+  /* Background Shades - Natural & Clean */
+  --bg-color: #fffafb;
+  --bg-light: #ffffff;
+  --bg-dark: #fce4ec;
+
+  /* Text Colors */
+  --text-dark: #4a148c;
+  --text-muted: #880e4f;
+  --text-light: #ffffff;
+
+  /* Card / Surface - Clean White */
+  --card-bg: #ffffff;
+  --glass-bg: rgba(255, 255, 255, 0.8);
+
+  /* Borders & Shadows - Subtle & Organic */
+  --border-color: #f8bbd0;
+  --shadow-soft: 0 4px 20px rgba(233, 30, 99, 0.08);
+  --shadow-medium: 0 10px 30px rgba(233, 30, 99, 0.12);
+
+  /* Gradients - Very Subtle */
+  --gradient-main: linear-gradient(135deg, #f8bbd0 0%, #f48fb1 100%);
+  --gradient-soft: linear-gradient(to bottom, #ffffff, #fff5f8);
+
+  /* Fonts */
+  --font-main: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+[data-theme='dark'] {
+  --bg-color: #2d1b24;
+  --bg-light: #3d2a34;
+  --bg-dark: #1a0f14;
+  --text-dark: #fce4ec;
+  --text-muted: #f8bbd0;
+  --card-bg: #3d2a34;
+  --border-color: #4e3441;
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-soft);
+}
+
+.text-gradient {
+  background: var(--gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

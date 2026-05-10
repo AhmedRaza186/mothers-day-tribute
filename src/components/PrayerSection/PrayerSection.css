@@ -1,0 +1,72 @@
+.prayer-simple {
+  padding: 120px 5%;
+  background-color: var(--bg-dark);
+  text-align: center;
+}
+
+.prayer-content-simple {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.prayer-heart-simple {
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.prayer-title-simple {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--text-dark);
+}
+
+.dua-list-simple {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dua-list-simple p {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.special-dedication-simple {
+  margin-top: 40px;
+  padding: 40px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: var(--shadow-medium);
+  border: 1px solid var(--border-color);
+}
+
+.special-dedication-simple p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.special-dedication-simple span {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .prayer-simple {
+    padding: 80px 20px;
+  }
+  
+  .prayer-title-simple {
+    font-size: 2rem;
+  }
+  
+  .dua-list-simple p {
+    font-size: 1.1rem;
+  }
+}
