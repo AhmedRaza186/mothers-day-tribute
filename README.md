@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mothers-day-tribute.git
+   git clone https://github.com/AhmedRaza186/mothers-day-tribute.git
    ```
 
 2. **Navigate to the project directory**:
@@ -62,7 +62,7 @@ This website was redesigned to move away from "overdesigned" futuristic aestheti
 
 This project is more than just a coding exercise. It is a tribute to my mother. 🤍
 
-**Made with love by [Ahmed Raza](https://github.com/your-username)**
+**Made with love by [Ahmed Raza](https://github.com/AhmedRaza186)**
 
 ---
 
