@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
-import heroImage from '../../assets/mother_child_illustration.png'; // Assuming I move it there or use the path directly
+import heroImage from '../../assets/mother_child_illustration'; // Assuming I move it there or use the path directly
 
 const Hero = () => {
   return (
