@@ -2,9 +2,7 @@ import React from 'react';
 import { Heart, Mail } from 'lucide-react';
 import './Footer.css';
 
-// Note: Lucide React v0.400+ removed brand icons. 
-// If these imports fail, I will provide SVG alternatives.
-// For now, I'll try to use generic icons that represent them well or provide SVGs.
+
 
 const Footer = () => {
   return (

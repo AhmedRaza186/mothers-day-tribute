@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
-import heroImage from '../../assets/mother_child_illustration.png'; // Assuming I move it there or use the path directly
-
+import heroImage from '../../assets/mother_child_illustration.png'; 
 const Hero = () => {
   return (
     <section id="home" className="hero-simple">
@@ -45,7 +44,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          {/* I'll use the actual generated path in the final App.jsx or just reference it correctly */}
+
           <img src={heroImage} alt="Mother and Child" />
         </motion.div>
       </div>
